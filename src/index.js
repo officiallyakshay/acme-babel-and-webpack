@@ -5,5 +5,5 @@ const { render } = ReactDOM;
 import { HashRouter } from 'react-router-dom';
 
 const root = document.querySelector('#root');
-// render(<HashRouter><App /></HashRouter>, root);
-render('<hr />', root)
+render(<HashRouter><App /></HashRouter>, root);
+// render(<hr />, root)
